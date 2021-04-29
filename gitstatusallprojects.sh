@@ -2,9 +2,9 @@
 current_directory=`pwd`
 
 for directory in * ; do
-    echo "s***** Project Start: $directory"
+    echo "********* Project: $directory"
     cd $current_directory/$directory
     sleep 1
     git status
-    printf "e***** Project End: $directory \n\n"
+    printf "************************"
 done
